@@ -1,4 +1,6 @@
-num = int(input("digite um valor inteiro: "))
+media = float(input("digite a média do aluno: "))
 
-num +=1
-print(num)
+if(media >= 7):
+    print("aluno aprovado")
+else:
+    print("aluno reprovado")
